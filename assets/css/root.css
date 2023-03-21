@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap');
+
+.ff_poppins {
+    font-family: 'Poppins';
+}
+
+/* root */
+:root {
+    /* font_size */
+    --fs-96: 96px;
+    --fs-48: 48px;
+    --fs-20: 20px;
+
+    /* color */
+    --color-orange: #F1875E;
+    --color-black: #161616;
+    --color-blue: #007FEF;
+
+}
+
+/* color */
+
+.orange {
+    color: var(--color-orange) !important;
+}
+
+.black {
+    color: var(--color-black);
+}
+
+.blue {
+    color: var(--color-blue);
+}
+
+/* font_size */
+.fs_96 {
+    font-size: var(--fs-96);
+}
+
+.fs_48 {
+    font-size: var(--fs-48);
+}
+
+.fs_20 {
+    font-size: var(--fs-20);
+}
+
+/* font-weight */
+.fw_700 {
+    font-weight: 700;
+}
+
+@media (max-width:1200px) {
+    :root {
+        /* font_size */
+        --fs-96: 60px;
+        --fs-48: 40px;
+        --fs-20: 18px;
+
+    }
+}
+
+@media (max-width:992px) {
+    :root {
+        /* font_size */
+        --fs-96: 50px;
+        --fs-48: 35px;
+        --fs-20: 16px;
+
+    }
+}
+
+@media (max-width:576px) {
+    :root {
+        /* font_size */
+        --fs-96: 30px;
+        --fs-48: 30px;
+        --fs-20: 14px;
+
+    }
+}
