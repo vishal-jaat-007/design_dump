@@ -14,9 +14,6 @@
     grid-gap: 30px;
 }
 
-.d_grid {
-    display: grid;
-}
 .bg_black{
     background-color: #000000;
     padding: 25px;
